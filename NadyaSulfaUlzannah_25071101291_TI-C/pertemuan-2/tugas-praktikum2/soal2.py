@@ -1,6 +1,6 @@
 def bil_prima(n):
     prima = []
-    for angka in range(2, n + 1):  # dimulai dari 2 krn bil.prima di mulai dari angka 2
+    for angka in range(2, n + 1):  # dimulai dari 2 karena bil.prima di mulai dari angka 2
         angka_prima = True
         for i in range(2, angka):
             if angka % i == 0:
