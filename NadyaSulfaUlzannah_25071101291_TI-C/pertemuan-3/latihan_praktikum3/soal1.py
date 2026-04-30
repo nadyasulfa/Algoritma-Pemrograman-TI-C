@@ -3,6 +3,7 @@ class Vehicle:
         self.jenis = jenis
         self.merk = merk
         self.tahun_rilis = tahun_rilis
+        
     def sound(self):
         print("suara")
     
